@@ -1,0 +1,3 @@
+#!/home/yaakov/.nodenv/shims/node
+
+console.log('hello, world!');
