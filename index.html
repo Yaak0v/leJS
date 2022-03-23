@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="day.js"></script>
     <script>
-        const daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-        let now = new Date(); 
-        alert(`hello, world! Happy ${daysOfTheWeek[now.getDay()]}`);
         let firstName = "Jacob";
         let lastNmame = "Sandry";
         console.log('This page contains a friendly greeting.', firstName, lastNmame);
+        let now = new Date()
+        alert(greeting(now))
     </script>
     <title>Learn Enough JS</title>
 </head>
